@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# Vivado v2019.2 (64-bit)
+# SW Build 2708876 on Wed Nov  6 21:40:23 MST 2019
+# IP Build 2700528 on Thu Nov  7 00:09:20 MST 2019
+# Start of session at: Mon Apr  3 14:40:58 2023
+# Process ID: 20252
+# Current directory: C:/Users/Yashraj Deshmukh/Desktop/COA Ass/Group_13_assignment_2_final/DLX processor
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent12200 C:\Users\Yashraj Deshmukh\Desktop\COA Ass\Group_13_assignment_2_final\DLX processor\DLX Processor.xpr
+# Log file: C:/Users/Yashraj Deshmukh/Desktop/COA Ass/Group_13_assignment_2_final/DLX processor/vivado.log
+# Journal file: C:/Users/Yashraj Deshmukh/Desktop/COA Ass/Group_13_assignment_2_final/DLX processor\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Users/Yashraj Deshmukh/Desktop/COA Ass/Group_13_assignment_2_final/DLX processor/DLX Processor.xpr}
+update_compile_order -fileset sources_1

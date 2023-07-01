@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="impl_1" LaunchPart="xc7a35tcpg236-1" LaunchTime="1679174556">
+  <File Type="ROUTE-PWR" Name="instructionRegister_power_routed.rpt"/>
+  <File Type="PA-TCL" Name="instructionRegister.tcl"/>
+  <File Type="BITSTR-BMM" Name="instructionRegister_bd.bmm"/>
+  <File Type="ROUTE-PWR-SUM" Name="instructionRegister_power_summary_routed.pb"/>
+  <File Type="REPORTS-TCL" Name="instructionRegister_reports.tcl"/>
+  <File Type="OPT-DCP" Name="instructionRegister_opt.dcp"/>
+  <File Type="OPT-DRC" Name="instructionRegister_drc_opted.rpt"/>
+  <File Type="OPT-HWDEF" Name="instructionRegister.hwdef"/>
+  <File Type="PWROPT-DCP" Name="instructionRegister_pwropt.dcp"/>
+  <File Type="PLACE-DCP" Name="instructionRegister_placed.dcp"/>
+  <File Type="PLACE-IO" Name="instructionRegister_io_placed.rpt"/>
+  <File Type="PLACE-UTIL" Name="instructionRegister_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL-PB" Name="instructionRegister_utilization_placed.pb"/>
+  <File Type="PLACE-CTRL" Name="instructionRegister_control_sets_placed.rpt"/>
+  <File Type="PLACE-PRE-SIMILARITY" Name="instructionRegister_incremental_reuse_pre_placed.rpt"/>
+  <File Type="POSTPLACE-PWROPT-DCP" Name="instructionRegister_postplace_pwropt.dcp"/>
+  <File Type="BG-BIN" Name="instructionRegister.bin"/>
+  <File Type="PHYSOPT-DCP" Name="instructionRegister_physopt.dcp"/>
+  <File Type="BITSTR-MSK" Name="instructionRegister.msk"/>
+  <File Type="ROUTE-ERROR-DCP" Name="instructionRegister_routed_error.dcp"/>
+  <File Type="ROUTE-DCP" Name="instructionRegister_routed.dcp"/>
+  <File Type="ROUTE-BLACKBOX-DCP" Name="instructionRegister_routed_bb.dcp"/>
+  <File Type="ROUTE-DRC" Name="instructionRegister_drc_routed.rpt"/>
+  <File Type="ROUTE-DRC-PB" Name="instructionRegister_drc_routed.pb"/>
+  <File Type="ROUTE-DRC-RPX" Name="instructionRegister_drc_routed.rpx"/>
+  <File Type="ROUTE-METHODOLOGY-DRC" Name="instructionRegister_methodology_drc_routed.rpt"/>
+  <File Type="BITSTR-MMI" Name="instructionRegister.mmi"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-RPX" Name="instructionRegister_methodology_drc_routed.rpx"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="instructionRegister_methodology_drc_routed.pb"/>
+  <File Type="ROUTE-PWR-RPX" Name="instructionRegister_power_routed.rpx"/>
+  <File Type="ROUTE-STATUS" Name="instructionRegister_route_status.rpt"/>
+  <File Type="ROUTE-STATUS-PB" Name="instructionRegister_route_status.pb"/>
+  <File Type="ROUTE-TIMINGSUMMARY" Name="instructionRegister_timing_summary_routed.rpt"/>
+  <File Type="ROUTE-TIMING-PB" Name="instructionRegister_timing_summary_routed.pb"/>
+  <File Type="ROUTE-TIMING-RPX" Name="instructionRegister_timing_summary_routed.rpx"/>
+  <File Type="ROUTE-CLK" Name="instructionRegister_clock_utilization_routed.rpt"/>
+  <File Type="ROUTE-BUS-SKEW" Name="instructionRegister_bus_skew_routed.rpt"/>
+  <File Type="ROUTE-BUS-SKEW-PB" Name="instructionRegister_bus_skew_routed.pb"/>
+  <File Type="ROUTE-BUS-SKEW-RPX" Name="instructionRegister_bus_skew_routed.rpx"/>
+  <File Type="POSTROUTE-PHYSOPT-DCP" Name="instructionRegister_postroute_physopt.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="instructionRegister_postroute_physopt_bb.dcp"/>
+  <File Type="BG-BIT" Name="instructionRegister.bit"/>
+  <File Type="BITSTR-RBT" Name="instructionRegister.rbt"/>
+  <File Type="BITSTR-NKY" Name="instructionRegister.nky"/>
+  <File Type="PDI-FILE" Name="instructionRegister.pdi"/>
+  <File Type="RCFI_FILE" Name="instructionRegister.rcfi"/>
+  <File Type="CFI_FILE" Name="instructionRegister.cfi"/>
+  <File Type="RNPI_FILE" Name="instructionRegister.rnpi"/>
+  <File Type="NPI_FILE" Name="instructionRegister.npi"/>
+  <File Type="RBD_FILE" Name="instructionRegister.rbd"/>
+  <File Type="BITSTR-LTX" Name="instructionRegister.ltx"/>
+  <File Type="BITSTR-SYSDEF" Name="instructionRegister.sysdef"/>
+  <File Type="BG-BGN" Name="instructionRegister.bgn"/>
+  <File Type="BG-DRC" Name="instructionRegister.drc"/>
+  <File Type="RDI-RDI" Name="instructionRegister.vdi"/>
+  <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/new/ALU_Unit.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/comparingRS1.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/incrementPC.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/instructionDecoder.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/muxDinSel.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/muxNextPC.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/muxOperand1.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/muxOperand2.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/muxRD.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/pcRegister.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/regFile32x32.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/secondary_output.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/signExtension.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/suffix2zeros.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/instructionRegister.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="instructionRegister"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <File Path="$PSRCDIR/constrs_1/new/RegFile_ALU_Constraint.xdc">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="TargetConstrsFile" Val="$PSRCDIR/constrs_1/new/RegFile_ALU_Constraint.xdc"/>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="utils" Type="Utils" RelSrcDir="$PSRCDIR/utils_1">
+    <Filter Type="Utils"/>
+    <Config>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2019"/>
+    <Step Id="init_design"/>
+    <Step Id="opt_design"/>
+    <Step Id="power_opt_design"/>
+    <Step Id="place_design"/>
+    <Step Id="post_place_power_opt_design"/>
+    <Step Id="phys_opt_design" EnableStepBool="1"/>
+    <Step Id="route_design"/>
+    <Step Id="post_route_phys_opt_design"/>
+    <Step Id="write_bitstream"/>
+    <Step Id="write_device_image"/>
+  </Strategy>
+</GenRun>

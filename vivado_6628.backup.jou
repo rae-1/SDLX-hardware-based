@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# Vivado v2019.2 (64-bit)
+# SW Build 2708876 on Wed Nov  6 21:40:23 MST 2019
+# IP Build 2700528 on Thu Nov  7 00:09:20 MST 2019
+# Start of session at: Sun Mar 12 18:34:19 2023
+# Process ID: 6628
+# Current directory: C:/Users/sahil/Desktop/updated SDLX/Group_13_assignment_2 - chaalija/Group_13_assignment_2 - refactored/Group_13_assignment_2 - Copy/DLX processor
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent9644 C:\Users\sahil\Desktop\updated SDLX\Group_13_assignment_2 - chaalija\Group_13_assignment_2 - refactored\Group_13_assignment_2 - Copy\DLX processor\DLX Processor.xpr
+# Log file: C:/Users/sahil/Desktop/updated SDLX/Group_13_assignment_2 - chaalija/Group_13_assignment_2 - refactored/Group_13_assignment_2 - Copy/DLX processor/vivado.log
+# Journal file: C:/Users/sahil/Desktop/updated SDLX/Group_13_assignment_2 - chaalija/Group_13_assignment_2 - refactored/Group_13_assignment_2 - Copy/DLX processor\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Users/sahil/Desktop/updated SDLX/Group_13_assignment_2 - chaalija/Group_13_assignment_2 - refactored/Group_13_assignment_2 - Copy/DLX processor/DLX Processor.xpr}
+update_compile_order -fileset sources_1

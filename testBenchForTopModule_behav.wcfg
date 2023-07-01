@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="testBenchForTopModule_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="testBenchForTopModule" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0fs"></ZoomStartTime>
+      <ZoomEndTime time="93001fs"></ZoomEndTime>
+      <Cursor1Time time="28000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="140"></NameColumnWidth>
+      <ValueColumnWidth column_width="110"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="26" />
+   <wvobject fp_name="/testBenchForTopModule/load" type="logic">
+      <obj_property name="ElementShortName">load</obj_property>
+      <obj_property name="ObjectShortName">load</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testBenchForTopModule/p1" type="logic">
+      <obj_property name="ElementShortName">p1</obj_property>
+      <obj_property name="ObjectShortName">p1</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testBenchForTopModule/p2" type="logic">
+      <obj_property name="ElementShortName">p2</obj_property>
+      <obj_property name="ObjectShortName">p2</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testBenchForTopModule/p3" type="logic">
+      <obj_property name="ElementShortName">p3</obj_property>
+      <obj_property name="ObjectShortName">p3</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testBenchForTopModule/p4" type="logic">
+      <obj_property name="ElementShortName">p4</obj_property>
+      <obj_property name="ObjectShortName">p4</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testBenchForTopModule/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testBenchForTopModule/reset" type="logic">
+      <obj_property name="ElementShortName">reset</obj_property>
+      <obj_property name="ObjectShortName">reset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testBenchForTopModule/display" type="array">
+      <obj_property name="ElementShortName">display[1:0]</obj_property>
+      <obj_property name="ObjectShortName">display[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testBenchForTopModule/in" type="array">
+      <obj_property name="ElementShortName">in[7:0]</obj_property>
+      <obj_property name="ObjectShortName">in[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testBenchForTopModule/dut/instructionType/RS1is0" type="logic">
+      <obj_property name="ElementShortName">RS1is0</obj_property>
+      <obj_property name="ObjectShortName">RS1is0</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testBenchForTopModule/dut/instructionType/operand1Sel" type="logic">
+      <obj_property name="ElementShortName">operand1Sel</obj_property>
+      <obj_property name="ObjectShortName">operand1Sel</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testBenchForTopModule/dut/instructionType/operand2Sel" type="logic">
+      <obj_property name="ElementShortName">operand2Sel</obj_property>
+      <obj_property name="ObjectShortName">operand2Sel</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testBenchForTopModule/dut/instructionType/nextPcSel" type="logic">
+      <obj_property name="ElementShortName">nextPcSel</obj_property>
+      <obj_property name="ObjectShortName">nextPcSel</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testBenchForTopModule/dut/RDselection/RDSel" type="array">
+      <obj_property name="ElementShortName">RDSel[1:0]</obj_property>
+      <obj_property name="ObjectShortName">RDSel[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testBenchForTopModule/dut/DinSelect/DinSel" type="logic">
+      <obj_property name="ElementShortName">DinSel</obj_property>
+      <obj_property name="ObjectShortName">DinSel</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testBenchForTopModule/dut/instructionType/WE" type="logic">
+      <obj_property name="ElementShortName">WE</obj_property>
+      <obj_property name="ObjectShortName">WE</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testBenchForTopModule/dut/extendedNumber" type="array">
+      <obj_property name="ElementShortName">extendedNumber[31:0]</obj_property>
+      <obj_property name="ObjectShortName">extendedNumber[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testBenchForTopModule/dut/aluCtrl" type="array">
+      <obj_property name="ElementShortName">aluCtrl[5:0]</obj_property>
+      <obj_property name="ObjectShortName">aluCtrl[5:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testBenchForTopModule/dut/inst" type="array">
+      <obj_property name="ElementShortName">inst[31:0]</obj_property>
+      <obj_property name="ObjectShortName">inst[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testBenchForTopModule/dut/inALU1" type="array">
+      <obj_property name="ElementShortName">inALU1[31:0]</obj_property>
+      <obj_property name="ObjectShortName">inALU1[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testBenchForTopModule/dut/pcReg/PCout" type="array">
+      <obj_property name="ElementShortName">PCout[29:0]</obj_property>
+      <obj_property name="ObjectShortName">PCout[29:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testBenchForTopModule/dut/inALU2" type="array">
+      <obj_property name="ElementShortName">inALU2[31:0]</obj_property>
+      <obj_property name="ObjectShortName">inALU2[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testBenchForTopModule/dut/actualDin" type="array">
+      <obj_property name="ElementShortName">actualDin[31:0]</obj_property>
+      <obj_property name="ObjectShortName">actualDin[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testBenchForTopModule/dut/DinAluToRegfile" type="array">
+      <obj_property name="ElementShortName">DinAluToRegfile[31:0]</obj_property>
+      <obj_property name="ObjectShortName">DinAluToRegfile[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testBenchForTopModule/dut/regfile/regfile" type="array">
+      <obj_property name="ElementShortName">regfile[31:0][31:0]</obj_property>
+      <obj_property name="ObjectShortName">regfile[31:0][31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testBenchForTopModule/resultSDLX" type="array">
+      <obj_property name="ElementShortName">resultSDLX[15:0]</obj_property>
+      <obj_property name="ObjectShortName">resultSDLX[15:0]</obj_property>
+   </wvobject>
+</wave_config>

@@ -1,0 +1,36 @@
+#-----------------------------------------------------------
+# Vivado v2019.2 (64-bit)
+# SW Build 2708876 on Wed Nov  6 21:40:23 MST 2019
+# IP Build 2700528 on Thu Nov  7 00:09:20 MST 2019
+# Start of session at: Sun Mar 19 14:29:47 2023
+# Process ID: 14156
+# Current directory: C:/Users/Yashraj Deshmukh/Desktop/Group_13_assignment_2/DLX processor
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent9400 C:\Users\Yashraj Deshmukh\Desktop\Group_13_assignment_2\DLX processor\DLX Processor.xpr
+# Log file: C:/Users/Yashraj Deshmukh/Desktop/Group_13_assignment_2/DLX processor/vivado.log
+# Journal file: C:/Users/Yashraj Deshmukh/Desktop/Group_13_assignment_2/DLX processor\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Users/Yashraj Deshmukh/Desktop/Group_13_assignment_2/DLX processor/DLX Processor.xpr}
+update_compile_order -fileset sources_1
+launch_simulation
+open_wave_config {C:/Users/Yashraj Deshmukh/Desktop/Group_13_assignment_2/DLX processor/testBenchForTopModule_behav.wcfg}
+source testBenchForTopModule.tcl
+close_sim
+launch_simulation
+open_wave_config {C:/Users/Yashraj Deshmukh/Desktop/Group_13_assignment_2/DLX processor/testBenchForTopModule_behav.wcfg}
+source testBenchForTopModule.tcl
+relaunch_sim
+save_wave_config {C:/Users/Yashraj Deshmukh/Desktop/Group_13_assignment_2/DLX processor/testBenchForTopModule_behav.wcfg}
+close_sim
+open_hw_manager
+connect_hw_server -allow_non_jtag
+open_hw_target
+set_property PROGRAM.FILE {C:/Users/Yashraj Deshmukh/Desktop/Group_13_assignment_2/DLX processor/DLX Processor.runs/impl_1/instructionRegister.bit} [get_hw_devices xc7a35t_0]
+current_hw_device [get_hw_devices xc7a35t_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a35t_0] 0]
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/Yashraj Deshmukh/Desktop/Group_13_assignment_2/DLX processor/DLX Processor.runs/impl_1/instructionRegister.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+close_hw_manager
